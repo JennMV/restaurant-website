@@ -169,7 +169,7 @@ ul {
   height:2px;
   background: #ee7f32;
   display: inline-block;
-  margin-left: .7em;
+  margin-left: .6em;
   vertical-align: middle;
 }
 
@@ -203,9 +203,6 @@ ul {
   vertical-align: middle;
 }
 
-.line {
-
-}
 
 
 
@@ -311,30 +308,51 @@ footer {
     padding-left: 1em;
   }
 
-  nav {
-    display:inline-block;
-    margin-right: .1em;
-    padding: 0;
+  nav ul {
+    font-size: 1.125rem;
+    list-style-type: none;
+    padding-left: 1em;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    display: inline-block;
   }
 
   nav a {
-    display:inline-block;
-    padding:.5em;
     color: #fff;
     text-decoration: none;
+    white-space: nowrap;
   }
 
   nav a:hover {
-    color: #d0ce2c;
+    color: #fff;
+    background-color: #d0ce2c;
+    padding: 11.7px;
+  }
+
+  nav {
+    float: right;
+  }
+
+  ul {
+    margin-right: 1em;
+    margin-top: auto;
+    display: inline-block;
+  }
+
+  li {
+    width: auto;
+    padding: .5em;
+    margin-right: .3em;
   }
 
   .toggle {
     display: none;
   }
 
-  ul {
-    display: block;
-  }
 
 
 
@@ -378,9 +396,18 @@ footer {
 
 
 
+
   .description {
     text-align: center;
   }
+
+
+
+
+
+
+
+
 
 
 
@@ -400,12 +427,28 @@ footer {
 
 
 
+
+
   .social {
     float: right;
+    vertical-align: top;
+    margin: 0;
+    padding-right: 0;
+  }
+
+  .facebook {
+    margin: 0;
   }
 
   .img-icon {
     float: left;
+    vertical-align: top;
+
+  }
+
+  .footer-center {
+    width: 80%;
+    vertical-align: top;
   }
 
 
