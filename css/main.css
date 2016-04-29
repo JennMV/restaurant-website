@@ -170,6 +170,7 @@ ul {
   background: #ee7f32;
   display: inline-block;
   margin-left: .7em;
+  vertical-align: middle;
 }
 
 .circle-small {
@@ -180,6 +181,7 @@ ul {
   border-radius: 50%;
   background: #ee7f32;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .circle-big {
@@ -190,6 +192,7 @@ ul {
   border-radius: 50%;
   background: #ee7f32;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .h-line-right {
@@ -197,6 +200,7 @@ ul {
   height:2px;
   background: #ee7f32;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .line {
@@ -307,13 +311,13 @@ footer {
     padding-left: 1em;
   }
 
-  .nav {
+  nav {
     display:inline-block;
     margin-right: .1em;
     padding: 0;
   }
 
-  .nav a {
+  nav a {
     display:inline-block;
     padding:.5em;
     color: #fff;
@@ -329,9 +333,8 @@ footer {
   }
 
   ul {
-    display: none;
+    display: block;
   }
-
 
 
 
@@ -385,11 +388,14 @@ footer {
   .map {
     display: inline-block;
     width: 50%;
+    vertical-align: middle;
+    margin-bottom: 1em;
   }
 
   .directions {
     width: 45%;
     display: inline-block;
+    vertical-align: middle;
   }
 
 
@@ -400,7 +406,6 @@ footer {
 
   .img-icon {
     float: left;
-    width: 20%;
   }
 
 
