@@ -145,7 +145,7 @@ ul {
   border-radius: 30px;
 }
 
-.card-body h4 {
+.card-body p {
   font-weight: normal;
   margin-top: .5em;
   margin-bottom: 1em;
@@ -216,13 +216,14 @@ h2 {
   border-top-right-radius: 500px;
 }
 
-dl h4 {
+dl dt.subheader {
   text-align: center;
   color: #d0ce2c;
 }
 
 .solo {
   text-align: left;
+  color: #d0ce2c;
 }
 
 dl {
@@ -385,7 +386,7 @@ footer {
     border: solid 7px #fff;
   }
 
-  li div h4 {
+  li div p {
     padding-bottom: 2em;
   }
 
@@ -409,7 +410,7 @@ footer {
     margin-left: .4em;
   }
 
-  .card-body h4 {
+  .card-body p {
     margin: 0;
   }
 
@@ -428,6 +429,10 @@ footer {
 
   .menu {
     margin-bottom: 2em;
+  }
+
+  .subheader {
+    color: #d0ce2c;
   }
 
   .row-1 {
