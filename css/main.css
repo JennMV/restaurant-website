@@ -52,6 +52,9 @@ ul {
 
 
 
+.banner {
+    position: relative;
+}
 
 .banner-image{
   display: block;
@@ -60,7 +63,6 @@ ul {
   }
 
 .img-flex{
-  position: relative;
   width: 100%;
 }
 
@@ -68,16 +70,17 @@ ul {
   width: 100%;
   position: absolute;
   left: 50%;
-  top: 35%;
+  top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
   margin-bottom: 0;
+  padding: 1rem;
 }
 
 .banner-content h2{
   font-family: "Permanent Marker";
-  font-size: 1.7rem;
+  font-size: 1rem;
   margin-bottom: 0;
   margin-top: 0;
   text-align: center;
@@ -88,6 +91,11 @@ ul {
   padding-left: 1em;
   padding-right: 1em;
 }
+
+.banner-content {
+  font-size: .7rem;
+}
+
 
 p{
   font-family: Avenir, sans-serif;
@@ -111,7 +119,7 @@ p{
 .btn:hover {
   background-color: #fff;
   color: #d0ce2c;
-  border: #d0ce2c;
+  border: solid 3px #d0ce2c;
 }
 
 
@@ -224,9 +232,40 @@ h2 {
 
 
 
+
+
+
+
+dl h4 {
+  text-align: center;
+  color: #d0ce2c;
+}
+
+.solo {
+  text-align: left;
+}
+
+dl {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+dt {
+  text-align: left;
+  width: 50%;
+}
+
+dd {
+  text-align: right;
+}
+
 .last-dd {
   padding-bottom: 1em;
 }
+
+
+
+
 
 
 
@@ -306,6 +345,7 @@ footer {
 
   h1 {
     padding-left: 1em;
+    vertical-align: middle;
   }
 
   nav ul {
@@ -335,6 +375,7 @@ footer {
 
   nav {
     float: right;
+    vertical-align: middle;
   }
 
   ul {
@@ -356,13 +397,28 @@ footer {
 
 
 
+  .banner-content {
+    font-size: 150%;
+  }
+
+  .banner-content h2 {
+    font-size: 200%;
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+
+  .btn {
+    width: 200px;
+    line-height: 50px;
+    font-size: 80%;
+    border: solid 7px #fff;
+  }
 
 
 
-
-
-
-
+  li div h4 {
+    padding-bottom: 2em;
+  }
 
   .card {
     margin-bottom: 1rem;
@@ -397,9 +453,44 @@ footer {
 
 
 
+
+
+  h2 {
+    font-size: 250%;
+  }
+
   .description {
     text-align: center;
   }
+
+
+
+
+  .menu {
+    margin-bottom: 2em;
+  }
+
+  .row-1 {
+    width: 40%;
+    float: left;
+    margin-left: 3em;
+    margin-right: 1em;
+    display: inline-block;
+  }
+
+  .row-2 {
+    width: 40%;
+    float: right;
+    margin-left: 1em;
+    margin-right: 3em;
+    display: inline-block;
+  }
+
+  .line {
+  display: block;
+  margin-top: 90em;
+  }
+
 
 
 
@@ -429,6 +520,13 @@ footer {
 
 
 
+
+
+
+  footer {
+    padding-top: 2em;
+  }
+
   .social {
     float: right;
     vertical-align: top;
@@ -442,15 +540,19 @@ footer {
 
   .img-icon {
     float: left;
-    vertical-align: top;
-
+    width: 100px;
+    margin-left: 7em;
+    margin-top: 0;
   }
 
   .footer-center {
-    width: 80%;
-    vertical-align: top;
+    width: 100%;
   }
 
+  .footer-left {
+    margin-top: 0;
+    margin-left: 13em;
+  }
 
 
 
