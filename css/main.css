@@ -264,8 +264,6 @@ p {
   padding-bottom: 1em;
 }
 
-
-
 footer {
   background-color: #d0ce2c;
   margin: 0;
@@ -368,9 +366,6 @@ footer {
     display: none;
   }
 
-
-
-
   .banner-content {
     font-size: 150%;
   }
@@ -387,8 +382,6 @@ footer {
     font-size: 80%;
     border: solid 7px #fff;
   }
-
-
 
   li div h4 {
     padding-bottom: 2em;
@@ -423,12 +416,6 @@ footer {
     margin-bottom: 0;
   }
 
-
-
-
-
-
-
   h2 {
     font-size: 250%;
   }
@@ -436,9 +423,6 @@ footer {
   .description {
     text-align: center;
   }
-
-
-
 
   .menu {
     margin-bottom: 2em;
@@ -465,18 +449,6 @@ footer {
   margin-top: 90em;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
   .map {
     display: inline-block;
     width: 50%;
@@ -489,13 +461,6 @@ footer {
     display: inline-block;
     vertical-align: middle;
   }
-
-
-
-
-
-
-
 
   footer {
     padding-top: 2em;
@@ -527,9 +492,6 @@ footer {
     margin-top: 0;
     margin-left: 13em;
   }
-
-
-
 
   .h-line-left {
     width:45%;
