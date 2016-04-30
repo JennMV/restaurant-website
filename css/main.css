@@ -111,12 +111,6 @@ p {
   font-family: "Permanent Marker";
 }
 
-.btn:hover {
-  background-color: #fff;
-  color: #d0ce2c;
-  border: solid 3px #d0ce2c;
-}
-
 ul {
   margin: 0;
   padding: 0;
@@ -340,12 +334,6 @@ footer {
     color: #fff;
     text-decoration: none;
     white-space: nowrap;
-  }
-
-  nav a:hover {
-    color: #fff;
-    background-color: #d0ce2c;
-    padding: 11.7px;
   }
 
   nav {
